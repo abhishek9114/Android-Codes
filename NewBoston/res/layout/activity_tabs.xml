@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TabHost
+        android1:id="@+id/tabhost"          
+        android1:layout_width="match_parent"
+        android1:layout_height="match_parent" >
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="match_parent"
+            android1:orientation="vertical" >
+
+            <TabWidget
+                android1:id="@android:id/tabs"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content" >
+            </TabWidget>
+            
+            <FrameLayout
+                android1:id="@android:id/tabcontent"
+                android1:layout_width="match_parent"
+                android1:layout_height="match_parent" >
+
+                <LinearLayout
+                    android1:id="@+id/tab1"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android1:id="@+id/bstartwatch"
+                        android1:layout_width="wrap_content"
+                        android1:layout_height="wrap_content"
+                        android1:text="Start" />
+
+                    <Button
+                        android1:id="@+id/bstopwatch"
+                        android1:layout_width="wrap_content"
+                        android1:layout_height="wrap_content"
+                        android1:text="Stop" />
+
+                    <TextView
+                        android1:id="@+id/tvshowresults"
+                        android1:layout_width="wrap_content"
+                        android1:layout_height="wrap_content"
+                        android1:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android1:id="@+id/tab2"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android1:id="@+id/textView2"
+                        android1:layout_width="wrap_content"
+                        android1:layout_height="wrap_content"
+                        android1:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android1:id="@+id/tab3"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                   <Button
+                        android1:id="@+id/baddtab"
+                        android1:layout_width="wrap_content"
+                        android1:layout_height="wrap_content"
+                        android1:text="Add a Tab" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

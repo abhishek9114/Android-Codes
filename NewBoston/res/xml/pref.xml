@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <ListPreference 
+     android:key="scolor"
+     android:entries="@array/color_array"
+     android:entryValues="@array/color_array"
+     android:title="SELECT COLOR"
+     android:summary="Application BG Color"
+     />  
+     <CheckBoxPreference 
+         android:key="t9hint"
+         android:title="T9 Dictionary"
+         android:summaryOn="Turn off T9 Dict. "
+         android:summaryOff="Turn on T9 Dict."
+         />
+     <CheckBoxPreference 
+         android:key="sms"
+         android:title="Delivery Report"
+         android:summaryOn="Delivery Report is ON"
+         android:summaryOff="Delivery Report is OFF "
+         />
+     
+     <MultiSelectListPreference 
+         
+         android:key="mcolor"
+         android:entries="@array/color_array"
+         android:entryValues="@array/color_array"
+         android:title="Select Colors"
+         android:summary="Option For App Setting. "
+         />
+     <EditTextPreference 
+         android:key="welcome"
+         android:title="Enter Welcome Text"
+         android:summary="Will View On App Start"
+         />
+    </PreferenceScreen>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bt1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main1">MainActivity</string>
+    <string name="title_activity_newone">Newone</string>
+    <string name="title_activity_lifecycle_activity">Lifecycle_activity</string>
+    <string name="title_activity_class_menu">ClassMenu</string>
+    <string name="title_activity_service_demo">ServiceDemo</string>
+    <string name="title_activity_music_player">MusicPlayer</string>
+    <string name="title_activity_jumble_assignment">Jumble_assignment</string>
+    <string name="title_activity_toggle_button_demo">ToggleButtonDemo</string>
+    <string name="title_activity_seek_bar_demo">SeekBarDemo</string>
+    <string name="title_activity_progress_bar_demo">ProgressBarDemo</string>
+    <string name="title_activity_testing">Testing</string>
+    <string name="title_activity_media_class_assignment">MediaClassAssignment</string>
+    <string name="title_activity_actext_demo">ACTextDemo</string>
+    <string name="color_title">Select Color</string>
+
+    <string-array name="color_array">
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>BLACK</item>
+        <item>ORANGE</item>
+    </string-array>
+
+    <string name="title_activity_linear_demo">LinearDemo</string>
+    <string name="title_activity_table_demo">TableDemo</string>
+    <string name="title_activity_tab_demo">TabDemo</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_frame_demo">FrameDemo</string>
+    <string name="title_activity_login_and_test">LoginAndTest</string>
+    <string name="title_activity_test_intent">TestIntent</string>
+    <string name="title_activity_message_send_app">MessageSendApp</string>
+    <string name="title_activity_transfer_data_intent">TransferDataIntent</string>
+    <string name="title_activity_test_calculator">TestCalculator</string>
+
+</resources>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bt1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mouse"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.bt1.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main1Activity"
+            android:label="@string/title_activity_main1" >
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.bt1.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Newone"
+            android:label="@string/title_activity_newone" >
+        </activity>
+        <activity
+            android:name=".Lifecycle_activity"
+            android:label="@string/title_activity_lifecycle_activity" >
+        </activity>
+        <activity
+            android:name=".Textgame"
+            android:label="@string/title_activity_newone" >
+        </activity>
+        <activity
+            android:name=".Email"
+            android:label="@string/title_activity_newone" >
+        </activity>
+        <activity
+            android:name=".Camera"
+            android:label="@string/title_activity_newone"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GTActivity1"
+            android:label="@string/title_activity_newone" >
+        </activity>
+        <activity
+            android:name=".GTActivity2"
+            android:label="@string/title_activity_newone" >
+        </activity>
+        <activity
+            android:name=".GTActivity3"
+            android:label="@string/title_activity_newone" >
+        </activity>
+        <activity
+            android:name=".GTActivity4"
+            android:label="@string/title_activity_newone" >
+        </activity>
+        <activity
+            android:name=".Assignment_class"
+            android:label="@string/title_activity_newone" >
+        </activity>
+        <activity
+            android:name=".ClassMenu"
+            android:label="@string/title_activity_class_menu" >
+        </activity>
+        <activity
+            android:name=".Data"
+            android:label="@string/title_activity_class_menu" >
+        </activity>
+        <activity
+            android:name=".OpenedClass"
+            android:label="@string/title_activity_class_menu" >
+        </activity>
+        <activity
+            android:name=".Temperature_Convereter"
+            android:label="@string/title_activity_class_menu" >
+        </activity>
+
+        <service android:name=".MyService" >
+        </service>
+
+        <activity
+            android:name=".ServiceDemo"
+            android:label="@string/title_activity_service_demo" >
+        </activity>
+        <activity
+            android:name=".MusicPlayer"
+            android:label="@string/title_activity_music_player" >
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.bt1.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.bt1.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Jumble_assignment"
+            android:label="@string/title_activity_jumble_assignment" >
+        </activity>
+        <activity
+            android:name=".ToggleButtonDemo"
+            android:label="@string/title_activity_toggle_button_demo" >
+        </activity>
+        <activity
+            android:name=".SeekBarDemo"
+            android:label="@string/title_activity_seek_bar_demo" >
+        </activity>
+        <activity
+            android:name=".ProgressBarDemo"
+            android:label="@string/title_activity_progress_bar_demo" >
+        </activity>
+        <activity
+            android:name=".Testing"
+            android:label="@string/title_activity_testing" >
+        </activity>
+        <activity
+            android:name=".MediaClassAssignment"
+            android:label="@string/title_activity_media_class_assignment" >
+        </activity>
+        <activity
+            android:name=".ACTextDemo"
+            android:label="@string/title_activity_actext_demo" >
+        </activity>
+        <activity
+            android:name=".LayoutMenu"
+            android:label="@string/title_activity_actext_demo" >
+        </activity>
+        <activity
+            android:name=".LinearDemo"
+            android:label="@string/title_activity_linear_demo" >
+        </activity>
+        <activity
+            android:name=".TableDemo"
+            android:label="@string/title_activity_table_demo" >
+        </activity>
+        <activity
+            android:name=".TabDemo"
+            android:label="@string/title_activity_tab_demo" >
+        </activity>
+        <activity
+            android:name=".FrameDemo"
+            android:label="@string/title_activity_frame_demo" >
+        </activity>
+        <activity
+            android:name=".LoginAndTest"
+            android:label="@string/title_activity_login_and_test" >
+        </activity>
+        <activity
+            android:name=".TestIntent"
+            android:label="@string/title_activity_test_intent" >
+        </activity>
+        <activity
+            android:name=".Alone"
+            android:label="@string/title_activity_test_intent" >
+        </activity>
+        <activity
+            android:name=".MessageSendApp"
+            android:label="@string/title_activity_message_send_app" >
+        </activity>
+        <activity
+            android:name=".TransferDataIntent"
+            android:label="@string/title_activity_transfer_data_intent" >
+        </activity>
+        <activity
+            android:name=".TransferedDataIntent"
+            android:label="@string/title_activity_transfer_data_intent" >
+        </activity>
+    </application>
+
+</manifest>

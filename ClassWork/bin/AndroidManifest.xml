@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.classwork"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CountryAndCapital"
+            android:label="@string/title_activity_country_and_capital" >
+        </activity>
+        <activity
+            android:name=".FileDemo"
+            android:label="@string/title_activity_file_demo" >
+        </activity>
+        <activity
+            android:name=".DBAccess"
+            android:label="@string/title_activity_dbaccess" >
+        </activity>
+        <activity
+            android:name=".MyBroadcast"
+            android:label="@string/title_activity_my_broadcast" >
+        </activity>
+
+        <receiver android:name=".BatteryReceiver" >
+            <intent-filter>
+                <action android:name="com.example.classwork.Battery_Status" >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".MyphoneReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".SongFinder"
+            android:label="@string/title_activity_my_broadcast" >
+        </activity>
+        <activity
+            android:name=".MenuDemo"
+            android:label="@string/title_activity_menu_demo" >
+        </activity>
+        <activity
+            android:name=".Alone"
+            android:label="@string/title_activity_menu_demo" >
+        </activity>
+        <activity
+            android:name=".SensorDemo"
+            android:label="@string/title_activity_sensor_demo" >
+        </activity>
+        <activity
+            android:name=".ProximitySensor"
+            android:label="@string/title_activity_proximity_sensor" >
+        </activity>
+        <activity
+            android:name=".BluetoothDemo"
+            android:label="@string/title_activity_bluetooth_demo" >
+        </activity>
+        <activity
+            android:name=".CameraDemo"
+            android:label="@string/title_activity_camera_demo" >
+        </activity>
+    </application>
+
+</manifest>

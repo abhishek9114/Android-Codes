@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExternalStorage.java&apos; to &apos;Mp3Player/src/com.example.mp3player&apos;&#x0D;&#x0A;- Original project: &apos;ClassWork&apos;&#x0D;&#x0A;- Destination element: &apos;Mp3Player/src/com.example.mp3player&apos;&#x0D;&#x0A;- Original element: &apos;com.example.classwork.ExternalStorage.java&apos;" description="Copy compilation unit" destination="=Mp3Player/src&lt;com.example.mp3player" element1="/src&lt;com.example.classwork{ExternalStorage.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1433695203752" units="1" version="1.0"/>
+</session>

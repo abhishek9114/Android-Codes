@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="COUNTER : 0" 
+        android:id="@+id/mat1"
+        />
+   <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+    
+<Button
+    android:layout_width="150dp" 
+    android:layout_height="wrap_content"
+    android:text="MESSAGE"
+    android:layout_gravity="center" 
+    android:textSize="20dp"
+     android:id="@+id/mab1"
+    />
+<Button
+    android:layout_width="150dp" 
+    android:layout_height="wrap_content"
+    android:text="INCREMENT"
+    android:layout_gravity="center" 
+    android:textSize="20dp"
+     android:id="@+id/mab2"
+    />
+<Button
+    android:layout_width="150dp" 
+    android:layout_height="wrap_content"
+    android:text="DECREMENT"
+    android:layout_gravity="center" 
+    android:textSize="20dp"
+     android:id="@+id/mab3"
+    />
+</LinearLayout>
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello"/>
+</LinearLayout>

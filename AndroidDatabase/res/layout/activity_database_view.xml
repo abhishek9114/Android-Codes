@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.androiddatabase.DatabaseView" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:text="Name:" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/etname"
+        android:layout_marginTop="59dp"
+        android:text="Age" />
+
+    <EditText
+        android:id="@+id/etage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/etname"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/etage"
+        android:layout_marginTop="62dp"
+        android:text="Branch" />
+
+    <EditText
+        android:id="@+id/etbranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/etage"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/bfirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etbranch"
+        android:layout_marginTop="26dp"
+        android:text="first" />
+
+    <Button
+        android:id="@+id/bprev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bfirst"
+        android:layout_alignBottom="@+id/bfirst"
+        android:layout_alignLeft="@+id/etbranch"
+        android:drawableRight="@android:drawable/ic_media_previous"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bprev"
+        android:drawableRight="@android:drawable/ic_media_next"
+        android:layout_toRightOf="@+id/bprev"
+        android:text="" />
+
+    <Button
+        android:id="@+id/blast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bnext"
+        android:layout_alignBottom="@+id/bnext"
+        android:layout_alignRight="@+id/etbranch"
+        android:text="Last" />
+
+    <Button
+        android:id="@+id/badd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:drawableRight="@android:drawable/ic_input_add" />
+
+    <Button
+        android:id="@+id/bsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/badd"
+        android:layout_alignBottom="@+id/badd"
+        android:layout_alignLeft="@+id/bnext"
+        android:text="Save" />
+
+</RelativeLayout>
